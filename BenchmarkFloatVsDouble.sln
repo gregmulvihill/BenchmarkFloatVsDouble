@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkFloatVsDouble", "BenchmarkFloatVsDouble\BenchmarkFloatVsDouble.csproj", "{06A27760-0C4C-4E3F-98E0-380F1C42C797}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{2638377C-17CB-4320-A387-D5BB028E76DA}"
+	ProjectSection(SolutionItems) = preProject
+		Compare IL - Func2Double vs Func2Float.png = Compare IL - Func2Double vs Func2Float.png
+		Puzzling results.txt = Puzzling results.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
